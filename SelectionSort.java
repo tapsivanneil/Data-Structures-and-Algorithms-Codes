@@ -5,14 +5,8 @@ public class SelectionSort {
 
     public void sort(Integer list[], int x){
 
-        int temp;
-
         for(int i = 0; i <= list.length; i++){
             
-            if(list[i] )
-
-
-
         }
     }
 }

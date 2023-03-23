@@ -2,7 +2,11 @@
 public class LinearSearcAct {
     public static void main(String[] args) {
         
-        Integer list[][] = {{13,17,43,76}, {18,14,9,21}, {1,7,6,45}, {9,65,80,33}};  
+        Integer list[][] = {{13,17,43,76}, 
+                            {18,14,9,21}, 
+                            {1,7,6,45}, 
+                            {9,65,80,33}};  
+                            
         System.out.println(search(list, 76));
     }
 
