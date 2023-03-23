@@ -22,6 +22,7 @@ public class BinarySquareRoot {
             else lo = mid;
 
             System.out.println(mid);
+            
         }
         return -1;
 

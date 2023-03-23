@@ -1,3 +1,4 @@
+package SelfActivities;
 
 public class LinearSearcAct {
     public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class LinearSearcAct {
             if(list[x][y] == n) return m;
             for (int j = 0; y < list.length; y++, m++){
                 if(list[x][y] == n) return m;
+                
             }
         }
         return -1;
