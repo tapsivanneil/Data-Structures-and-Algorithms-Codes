@@ -1,8 +1,8 @@
 public class BinarySquareRoot {
     public static void main(String[] args) {
         Double list[] = {1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0};
-        double x = 81;
-        double ep = 0.0001;
+        double x = 81; //lo                          /lohi
+        double ep = 0.001; //9 5  3
         System.out.println(search(list,x,ep));
 
     }

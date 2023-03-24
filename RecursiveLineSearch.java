@@ -25,5 +25,7 @@ public static void main(String[] args) {
 
 
 
-// list[] = {4,7,19,7,8}
+// list[] = {4,17,19,7,8}
 // x = 7
+
+

@@ -12,14 +12,11 @@ public class LinearSearcAct {
     }
 
     public static int search(Integer list[][], int n){
-        int m = 0;
-        int x = 0;
-        int y = 0; 
+        int m = 0; //3
 
-        for (int i = 0; x < list.length; x++, m++){
-            if(list[x][y] == n) return m;
-            for (int j = 0; y < list.length; y++, m++){
-                if(list[x][y] == n) return m;
+        for (int i = 0; i < list.length; i++, m++){
+            for (int j = 0; j < list.length; j++, m++){
+                if(list[i][j] == n) return m;
                 
             }
         }

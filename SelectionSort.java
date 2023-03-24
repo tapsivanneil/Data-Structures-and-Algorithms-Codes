@@ -12,10 +12,8 @@ public class SelectionSort {
 
     
         for(int i = 0; i< list.length - 1; i++){
-            int min = i;
-
+            //int min = i;
             for (int j = i + 1; j < list.length -1; j++){
-
                 if (list[i] < list[j]) {}
                 else{
                     int temp = list[i];
@@ -24,6 +22,14 @@ public class SelectionSort {
                 }
             }
         }
+
+        // i = 2
+        // j = 3
+        // temp = 6
+
+        //       i  j            
+        // 1  2  5  6  4  3
+
 
 
 

@@ -9,7 +9,7 @@ public class SquareRoot {
 
     public static double search(Double list[], double x){
 
-        for(int i = 0; i <= list.length; i++){
+        for(int i = 0; i < list.length; i++){
             double sqr = list[i] * list[i];
             if (sqr == x ) return list[i]; // if the square is needed
         }
