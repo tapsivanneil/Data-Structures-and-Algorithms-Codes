@@ -11,19 +11,25 @@ public class RecursiveLinearSearchBool2D {
     }
 
     public static boolean search(Integer list[][], int x) {
+        //return search(list, x, 0, 0);
         return search(list, x, 0, 0);
+
     }
 
-    public static boolean search(Integer list[][], int x, int i, int j) {
-        
-        while(i < list.length){
-            while(j < list.length){
+    public static boolean search(Integer list[][], int x,  int i, int j) {
+
+        if(i >= list.length && j >= list.length) return false;
+
+        if(i < list.length){
+            if(j < list.length){
                 if(list[i][j] == x) return true;
-                else j++; return search(list, x, i, j);
-            }
-            i++; return search(list, x, i++, j); 
+                return search(list, x, i, j + 1);
+            } 
         }
-        return false;
+        return search(list, x, i + 1, j);  
+        
 
     }
+
+
 }
